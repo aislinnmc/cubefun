@@ -1,0 +1,228 @@
+body{
+	  background-color: #000;
+}
+#logo{
+  position: relative;
+  width: 297px;
+  height: 274px;
+  margin: 0 auto;
+}
+.panel1{
+  position: absolute;	
+  top:0px;
+}
+.panel2{
+  position: absolute;
+  top:125px;
+}
+.border{
+  width:125px;
+  position: absolute;
+}
+.border1{
+  top: 43px;
+  left: 43px;
+  height: 1px;
+  -webkit-transform: rotate(-16deg);
+}
+.border2{
+  top: 62px;
+  left: 154px;
+  height: 1px;
+  -webkit-transform: rotate(35deg);
+}
+.border3{
+  top: 117px;
+  left: 146px;
+  height: 1px;
+  -webkit-transform: rotate(162deg);
+}
+.border4{
+  top: 97px;
+  left: 30px;
+  height: 1px;
+  -webkit-transform: rotate(35deg);
+}
+.panel2 .border1{
+  -webkit-transform: rotate(164deg);
+}
+.panel2 .border2{
+  -webkit-transform: rotate(215deg);
+}
+.panel2 .border3{
+  -webkit-transform: rotate(-18deg);
+}
+.panel2 .border4{
+  -webkit-transform: rotate(35deg);
+}
+.border5{
+  position: absolute;
+  width: 1px;
+  height: 125px;
+  left: 165px;
+  top: 27px;
+  -webkit-transform: rotate(180deg);
+}
+.border6{
+  position: absolute;
+  width: 1px;
+  height: 125px;
+  left: 267px;
+  top: 99px;
+  -webkit-transform: rotate(180deg);
+}
+.border7{
+  position: absolute;
+  width: 1px;
+  height: 125px;
+  left: 148px;
+  top: 137px;
+}
+.border8{
+  position: absolute;
+  width: 1px;
+  height: 125px;
+  left: 41px;
+  top: 62px;
+  -webkit-transform: rotate(180deg);
+}
+.borderinner{
+  background-color: #fff;
+  width:1px;
+  height:0px;
+}
+.panel1 .borderinner{
+  background-color: #fff;
+  width:0px;
+  height:1px;
+}
+.panel2 .borderinner{
+  background-color: #fff;
+  width:0px;
+  height:1px;
+}
+.border8 .borderinner{
+   background-color: #fff;
+}
+@-webkit-keyframes p1b1{
+  0%{width:0px;height:1px;}
+  100%{width:125px;height:1px;}
+}
+@-webkit-keyframes b5{
+  0%{width:1px;height:0px;}
+  100%{width:1px;height:125px;}
+}
+.panel1 .border1 .borderinner{
+  -webkit-animation-delay:0s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+.panel1 .border2 .borderinner{
+  -webkit-animation-delay:0.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.panel1 .border3 .borderinner{
+  -webkit-animation-delay:1s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.panel1 .border4 .borderinner{
+  -webkit-animation-delay:5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.border5 .borderinner{
+  -webkit-animation-delay:3s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:b5;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.border6 .borderinner{
+  -webkit-animation-delay:2.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:b5;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+.border7 .borderinner{
+  -webkit-animation-delay:1.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:b5;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+.border8 .borderinner{
+  -webkit-animation-delay:4.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:b5;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.panel2 .border1 .borderinner{
+  -webkit-animation-delay:3.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+
+.panel2 .border2 .borderinner{
+  -webkit-animation-delay:2.5s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+.panel2 .border3 .borderinner{
+  -webkit-animation-delay:2s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
+.panel2 .border4 .borderinner{
+  -webkit-animation-delay:4s;
+  -webkit-animation-duration:0.5s;
+  -webkit-animation-name:p1b1;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-fill-mode:forwards;
+  -webkit-animation-direction:alternate;
+}
