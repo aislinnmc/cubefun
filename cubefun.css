@@ -1,6 +1,51 @@
-body{
-	  background-color: #000;
+html,body,.container {
+    height:100%;
+background-color: red;
+  color: #fff;
 }
+      
+.container {
+    display:table;
+    width: 100%;
+    padding: 50px 0 0 0; /*set left/right padding according to needs*/
+    box-sizing: border-box;
+}
+      h1{
+        font-size: 6rem;
+      }
+            h2{
+        font-size: 2.5rem;
+      }
+header {
+    background: red;
+    height: 25%;
+}
+
+.row {
+    height: 100%;
+    display: table-row;
+}
+
+.kids{   
+    padding-top: 2%;
+    padding-left: 2%;
+}
+      .cube{
+        border-right-style: solid;
+      }
+      
+.col-6 {   
+    background: red;
+}
+
+.row .no-float {
+  display: table-cell;
+  float: none;
+}
+
+
+
+
 #logo{
   position: relative;
   width: 297px;
