@@ -58,7 +58,7 @@
   width: 50px;
 }
 .grid-hide-border {
-  border: solid 2px #fff;
+  border: none;
 }
       
 .square {
@@ -66,6 +66,10 @@
   width: 50px;
   background-color: #fff;
   border: solid 2px red;
+}
+      
+.hide-border {
+  border: solid 2px #fff;
 }
       
 </style>
@@ -97,21 +101,21 @@
     
 <div class="flex-container">
 <div class="square hide-border" ></div>
-<div class="square">F</div>
+<div class="square" style="border-color:red;">F</div>
 <div class="square hide-border"></div>
 <div class="square hide-border"></div>  
 </div>  
   
 <div class="flex-container">
-<div class="square">C</div>
-<div class="square">U</div>
-<div class="square">B</div>
-<div class="square">E</div>
+<div class="square" style="border-color:yellow;">C</div>
+<div class="square" style="border-color:pink;">U</div>
+<div class="square" style="border-color:blue;">B</div>
+<div class="square" style="border-color:orange;">E</div>
 </div>
 
 <div class="flex-container">
 <div class="square hide-border"></div>
-<div class="square">N</div>
+<div class="square" style="border-color:green;">N</div>
 <div class="square hide-border"></div>
 <div class="square hide-border"></div>
 </div>   
