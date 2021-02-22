@@ -1,7 +1,127 @@
-<html>
-<head>
-<title></title>
-</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CubeFun Educational Game">
+    <meta name="author" content="Cubefun">
+    <link rel="icon" href="favicon.ico">
 
-</body>
+    <title>CubeFun - Kids Educational Game</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/navbar-static/">
+
+    <!-- Bootstrap core CSS -->
+    <!--<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <!-- Custom styles for this template -->
+    <link href="album.css" rel="stylesheet">
+    <style>
+    .footer {
+      background-color:#9cca1f;
+    }
+      .dropdown-item{
+       color: #fff; 
+      }
+    
+    </style>
+  </head>
+
+  <body>
+<header>       
+<nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color:#fec400;">
+    <a class="navbar-brand" href="#">CubeFun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" id="navbarHeader">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" tabindex="1">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <!--<a class="nav-link" href="#" tabindex="2">Product</a>-->
+         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Product
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color:#fec400;">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="3" aria-disabled="true">Resources</a>
+      </li>
+    </ul>
+
+  </div>
+</nav>   
+</header>    
+    <main role="main">
+      
+      <section class="">
+         <div class="container">
+            <img src="images/cubefun-logo-small.jpg" alt="CubeFun Logo">
+            <img src="images/funkids.png" alt="Fun Kids Image">
+        </div>
+    </section>   
+
+        <div>
+        <p>"Excellent creative resource"
+        <br>
+      - Early Years Practitioner
+      </p>
+
+<p>
+"It promoted turntaking, working together, good attention and listening, encouraged them to move their whole body"
+<br>
+-Sure Start Early Years Worker
+</p>
+<p>
+"It's great fun. My boys loved it"
+<br>
+-Mummy of 4 year old
+</p>
+<p>
+"Great fun and great to get them moving indoors"
+<br>
+-Mummy of 3 year old
+</p>
+
+<p>
+"Great product. Great fun, active game to get the family or friends involved"
+<br>
+-Parent of 2& 5 year olds
+</p>
+
+<p>
+"Extremely good for children with ASD. It encourages sensory movement"
+<br>
+Laura, mummy of 3 under 5 year old
+ </p>
+ 
+      </div>
+
+    </main>
+
+    <footer class="text-muted footer">
+      <div>
+        <div class="float-left">
+        <ul><li>About Us</li><li>Product Safety</li></ul>
+        </div>
+        
+        <div class="float-left">
+      <ul><li>Help</li><li>Contact Us</li><li>FAQs</li></ul>
+        </div>
+      </div>      
+          
+    </footer>
+
+   
+  </body>
 </html>
